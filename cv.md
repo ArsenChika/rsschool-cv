@@ -158,7 +158,7 @@ Font-organizer for Adobe After Effects with search, lter, sorting, tagging syste
 
 7. Education (including courses, seminars, lectures, online learning).
 
-Master of Computer Science, Donetsk National University, Vinnytsia, 2017 – 2019.
+Master of Computer Science, Donetsk National University, Vinnytsia, 2016 – 2019.
 
 8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on).
 
