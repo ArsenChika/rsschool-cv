@@ -2,11 +2,11 @@ What should a Junior Developer Resume contain?
 
 ! Important: write your Resume in English if you can, if possible
 
-1. First Name, Last Name (real ones) 
+1. First Name, Last Name (real ones) :
 
-ARSENI CHYHIR
+ARSENI CHYHIR.
 
-2. Contact Info (add several ways to contact you)
+2. Contact Info (add several ways to contact you):
 
 e-mail: chi-arsenij@yandex.ru.
 github: github.com/ArsenChika.
@@ -147,13 +147,19 @@ JavaScript, TypeScript, React, Redux, Redux-thunk, HTML5, CSS3, SASS, BEM, Node.
 freelance projects - wherever they had the opportunity to demonstrate skills they have.
 Also it would be awesome if you add links to source code).
 
-PracticeChat [under development]
+PracticeChat [under development].
 Online chat for learning English. A real-world full-stack project with REST API and WebSockets that uses JWT- authentication. The Front-End part is written by using React Hooks, Redux and Redux Middlewares.
 
-7. Education (including courses, seminars, lectures, online learning)
+Sticksy.js [2019 – present]
+Open-Source library for making a “sticky widget” behavior. Here you can see my algorithmic and programming skills in vanilla JavaScript.
+
+FontNinja [2017 – 2018]
+Font-organizer for Adobe After Effects with search, lter, sorting, tagging system, real-time preview, virtual- scrolling, and many other features. Used Inversion of Control to build for different environments.
+
+7. Education (including courses, seminars, lectures, online learning).
 
 Master of Computer Science, Donetsk National University, Vinnytsia, 2017 – 2019.
 
-8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
+8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on).
 
 English – Pre-Intermediate.
