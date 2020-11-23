@@ -4,114 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./assets/stilyes/stily.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
-        <div class="block">
-            <div class="block_item">
-                <img src="./assets/images/set-152.jpg" class="MyPhoto">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <h1 class="logo">singolo<span class="simbal">*</span></h1>
+                    <nav class="nav">
+                        <li class="header__nav"><a href="#" class="nav">home</a></li>
+                        <li class="header__nav"><a href="#" class="nav">services</a></li>
+                        <li class="header__nav"><a href="#" class="nav">portfotio</a></li>
+                        <li class="header__nav"><a href="#" class="nav">about</a></li>
+                        <li class="header__nav"><a href="#" class="nav">contact</a></li>
+                    </nav>
+                </div> 
             </div>
-            <div class="block_item"> 
-                <p style="font-family: Ultra; font-size: xx-large;">ARSENI CHYHIR</p>
-                <p><span style="font-family: Ultra">Objective:</span> <i>Junior Front-End Developer</i></p>
-            </div>
-            <div class="block_item">
-                <div class="block_flexbox">
-                    <div class="icon">
-                        <img src="./assets/images/envelope.png" alt="e-mail"><a href="chi-arsenij@yandex.ru"><b>chi-arsenij@yandex.ru</b></a>
+            <div class="border__header"></div>
+        </header>
+        <div class="slider">
+            <div class="container">
+                <div class="image__phone">
+                    <div class="vertical_phone">
+                        <img src="./assets/images/phone-vertical.png" alt="phone" class="vertical">
+                        <img src="./assets/images/phone-vertical-display.png" alt="display" class="vertical__display">
+                        <img src="./assets/images/phone-vertical-shadow.png" alt="shadow" class="vertical__shadow">
                     </div>
-                    <div class="icon">
-                        <img src="./assets/images/github-sign.png" alt="github"><a href="https://github.com/ArsenChika"><b>github.com/ArsenChika</b></a>
-                    </div>
-                    <div class="icon">
-                        <img src="./assets/images/linkedin.png" alt="linkedin"><a href="https://www.linkedin.com/in/arseni-chyhir-b114221ba/"><b>linkedin.com/in/arseni</b></a>
-                    </div>
-                    <div class="icon">
-                        <img src="./assets/images/phone-receiver-silhouette.png" alt="phone"><a href="+375445376987"><b>+375445376987</b></a>
+                    <div class="horisont_phone">
+                        <img src="./assets/images/phone-horizontal.png" alt="phone" class="horisontal">
+                        <img src="./assets/images/phone-horizontal-display.png" alt="display" class="horisontal__display">
+                        <img src="./assets/images/phone-horizontal-shadow.png" alt="shadow" class="horisontal__shadow">
                     </div>
                 </div>
             </div>
+            <a href="./assets/images/arrow-left.png" class="buttom-next"></a>
+            <a href="./assets/images/arrow-right.png" class="buttom-right"></a>
+            <div class="border__slider">
+
+            </div>
         </div>
-        <div class="block">
-            <p>Creative and self-starting Front-End Developer with 4+ years of programming experience.
-                Highly skilled in React/Redux and have a deep understanding of OOP and Design Patterns.
-                Interested in becoming part of a friendly team that wants to grow and create great applications.</p>
-        </div>
-        <div class="block">
-            <div class="block1">
-                <div class="block_skills">
-                    <div class="block_info">
-                        <h2>Skills</h2>
-                        <p>JavaScript, TypeScript, React, Redux, Redux-thunk, HTML5,
-                            CSS3, SASS, BEM, Node.js, Express.js, Mongoose, AJAX,
-                            REST API, WebSockets, OOP, Design Patterns, Gulp,
-                            Webpack, C#/.NET, Git, Figma, Adobe Photoshop</p>
-                    </div>
-                    <div class="block_info">
-                        <h2>Projects</h2>
-                        <ul>
-                            <li>PracticeChat <span style="opacity: 0.6">[under development]</span></li>
-                            <p>Online chat for learning English. A real-world full-stack
-                                project with REST API and WebSockets that uses JWT-
-                                authentication. The Front-End part is written by using
-                                React Hooks, Redux and Redux Middlewares.</p>
-                            <div class="buttom">
-                                <p>React</p>
-                                <p>Redux</p>
-                                <p>Node.js</p>
-                                <p>Express.js</p>
-                                <p>MongoDB</p>
-                                <p>Socket.IO</p>
-                                <p>SASS</p>
-                                <p>Webpack</p>
+        <div class="service">
+            <div class="container">
+                <div class="service__content">
+                    <h1 class="service__tittle">Our Services</h1>
+                    <p class="service__text">
+                        Fusce dapibus, tellus ac cursus commodo, 
+                        tortor mauris condimentum. Duis mollis, 
+                        non commodo luctus, nisi erat porttitor ligula, 
+                        eget lacinia odio sem nec elit. 
+                        Fusce dapibus, tellus ac cursus commodo, 
+                        tortor mauris condimentum nibh.
+                    </p>
+                </div>
+                <div class="service__elements">
+                    <div class="service__items">
+                        <div class="service__icon">
+                            <div class="radius">
+                                <img src="./assets/images/services-item-1--nocircle.png" alt="">
                             </div>
-                            <li>Sticksy.js <span style="opacity: 0.6">[2019 – present]</span></li>
-                            <p>Open-Source library for making a <span class="line">“sticky widget”</span>
-                                behavior. Here you can see my algorithmic and
-                                programming skills in vanilla JavaScript.</p>
-                            <li>FontNinja <span style="opacity: 0.6">[2017 – 2018]</span></li>
-                            <p>Font-organizer for Adobe After Effects with search,
-                                lter, sorting, tagging system, real-time preview, virtual-
-                                scrolling, and many other features. Used <span class="line">Inversion of
-                                Control</span> to build for different environments.</p>
-                                <div class="buttom">
-                                    <p>TypeScript</p>
-                                    <p>Vue</p>
-                                    <p>Vuex</p>
-                                    <p>Inversify.js</p>
-                                    <p>SASS</p>
-                                    <p>Adobe CEP</p>
-                                    <p>Webpack</p>
-                                </div>
-                        </ul>
+                        </div>
+                        <div class="element__content">
+                            <h3 class="element__tittle">Custom Design</h3>
+                            <p class="element__text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="block_skills">
-                    <div class="block_info">
-                        <h2>Education</h2>
-                        <p>Master of Computer Science,
-                            Donetsk National University,
-                            Vinnytsia, 2017 – 2019</p>
+                    <div class="service__items">
+                        <div class="service__icon">
+                            <div class="radius">
+                                <img src="./assets/images/services-item-2--nocircle.png" alt="">
+                            </div>
+                        </div>
+                        <div class="element__content">
+                            <h3 class="element__tittle">Inovative Ideas</h3>
+                            <p class="element__text">Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                        </div>
                     </div>
-                    
-                    <div class="block_info">
-                        <h2>Interests</h2>
-                        <p>Machine Learning, UX/UI
-                            Design, Graphic Design,
-                            Product Design, Branding,
-                            Music production.</p>
+                    <div class="service__items">
+                        <div class="service__icon">
+                            <div class="radius">
+                                <img src="./assets/images/services-item-3--nocircle.png" alt="">
+                            </div>
+                        </div>
+                        <div class="element__content">
+                            <h3 class="element__tittle">Love Is The Answer</h3>
+                            <p class="element__text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                        </div>
                     </div>
-                    <div class="block_info">
-                        <h2>Languages</h2>
-                        <p>English – Pre-Intermediate</p>
+                    <div class="service__items">
+                        <div class="service__icon">
+                            <div class="radius">
+                                <img src="./assets/images/services-item-4--nocircle.png" alt="">
+                            </div>
+                        </div>
+                        <div class="element__content">
+                            <h3 class="element__tittle">Responsive Layout</h3>
+                            <p class="element__text">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                        </div>
+                    </div>
+                    <div class="service__items">
+                        <div class="service__icon">
+                            <div class="radius">
+                                <img src="./assets/images/services-item-5--nocircle.png" alt="">
+                            </div>
+                        </div>
+                        <div class="element__content">
+                            <h3 class="element__tittle">24 / 7 Support</h3>
+                            <p class="element__text">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem.</p>
+                        </div>
+                    </div>
+                    <div class="service__items">
+                        <div class="service__icon">
+                            <div class="radius">
+                                <img src="./assets/images/services-item-6--nocircle.png" alt="">
+                            </div>
+                        </div>
+                        <div class="element__content">
+                            <h3 class="element__tittle">Feel Like A Star</h3>
+                            <p class="element__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="service__border">
+
+            </div>
         </div>
+        <div class="portfolio">
+            <div class="container">
+                <div class="portfolio__title">
+                    <h1 class="portfolio__head">Portfolio</h1>
+                    <p class="portfolio__name">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+                </div>
+                <div class="container__buttom">
+                    <a href="#" class="buttom"><p class="buttom__text">All</p></a>
+                    <a href="#" class="buttom"><p class="buttom__text">Web Design</p></a>
+                    <a href="#" class="buttom"><p class="buttom__text">Graphic Design</p></a>
+                    <a href="#" class="buttom"><p class="buttom__text">Artwork</p></a>
+                </div>
+                <div class="portfolio__images">
+                    <img src="./assets/images/portfolio-1.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-2.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-3.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-4.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-5.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-6.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-7.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-8.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-9.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-10.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-11.png" alt="" class="images">
+                    <img src="./assets/images/portfolio-12.png" alt="" class="images">
+                </div>
+            </div>
+            <div class="portfolio__border"></div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__content">
+                    <h1 class="copyright">© Copyright 2013</h1>
+
+                    <div class="social__buttom">
+                        <div class="footer__radius">
+                            <a href="#"><img src="./assets/images/ico-facebook--nocircle.png" alt="facebook"></a>
+                        </div>
+                        <div class="footer__radius">
+                            <a href="#"><img src="./assets/images/ico-google-plus--nocircle.png" alt="google-plus"></a>
+                        </div>
+                        <div class="footer__radius">
+                            <a href="#"><img src="./assets/images/ico-twitter--nocircle.png" alt="twitter"></a>
+                        </div>
+                        <div class="footer__radius">
+                            <a href="#"><img src="./assets/images/ico-linkedin--nocircle.png" alt="linkedin"></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </footer>
     </div>
 </body>
 </html>
