@@ -13,8 +13,6 @@ ul, li {
     font-family: 'Lato', sans-serif;
 }
 
-/* HEADER */
-
 .header {
     position: absolute;
     top: 0;
@@ -52,10 +50,12 @@ ul, li {
   letter-spacing: -0.03em;
 }
 
-nav {
+.header__nav {
     font-size: 12px;
-    font-weight: 700;
     color: #ffffff;
+    display: flex;
+    font-weight: bold;
+    letter-spacing: -0.035em;
 }
 
 .nav {
@@ -64,7 +64,17 @@ nav {
     transition: color .2s linear;
     display: inline-block;
     vertical-align: top;
-    margin: 0 10px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.header__nav::after {
+  content: ".";
+}
+
+.header__nav:last-child:after {
+  content: "";
 }
 
 .nav:hover {
@@ -137,24 +147,24 @@ nav {
     background: #EA676B;
 }
 
-.ver
+.slider__buttom {
+  display: flex;
+  justify-content: space-between;
+}
 
 .buttom-next {
   position: absolute;
-  left: 3.92%;
-  right: 94.51%;
-  top: 18.31%;
-  bottom: 80.39%;
-  background: #E94348;
+  top: 297px;
+  z-index: 10;
+  color: #E94348;
 }
 
 .buttom-right {
   position: absolute;
-  left: 94.51%;
-  right: 3.92%;
-  top: 18.31%;
-  bottom: 80.39%;
-  background: #E94348;
+  top: 297px;
+  left: 1020px;
+  z-index: 10;
+  color: #E94348;
 }
 
 .service {
@@ -231,7 +241,7 @@ nav {
 .portfolio {
   position: absolute;
   width: 100%;
-  height: 864px;
+  /* height: 864px; */
   left: 0px;
   top: 1195px;
   background: #2D303A;
@@ -257,7 +267,9 @@ nav {
 }
 
 .images {
-  margin: 10px;
+  margin: 7px;
+  width: 220px;
+  height: 187px;
 }
 
 .portfolio__border {
